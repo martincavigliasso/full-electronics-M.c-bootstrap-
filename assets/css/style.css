@@ -6,10 +6,12 @@
     font-family:cursive;
 }
 .img-index{
-    width: 20%;
+    width: 45%;
+    
 }
 .contenedorCard{
     width: 40%;
+    border-radius: 15%;
 }
 .bg-color{
     background-color: rgb(70, 101, 151);
