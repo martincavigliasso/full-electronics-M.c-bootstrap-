@@ -7,20 +7,8 @@
     width: 40%;
     
 }
-.contenedorCard{
-    width: 40%;
-    border-radius: 15%;
-    bg-color{
-        display: flex;
-        background-color: rgb(70, 101, 151);;
-       
-        
-    } 
-    .bg-color2{
-        display: flex;
-        background-color: rgb(70, 101, 151);;
-    }
-}
+
+@import "navbar";
 .bg-color{
     background-color: rgb(70, 101, 151);
 }
