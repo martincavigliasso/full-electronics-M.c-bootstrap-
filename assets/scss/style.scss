@@ -1,3 +1,4 @@
+@import "variables";
 *{
     margin: 0%;
     padding: 0%;
@@ -6,9 +7,10 @@
 .img-index{
     width: 40%;
     
-}
+} 
 
-@import "navbar";
+
+ 
 .bg-color{
     background-color: rgb(70, 101, 151);
 }
@@ -17,4 +19,45 @@
 } 
 .bg-color3{
     background-color: rgb(70, 101, 151);
+} 
+.row{
+    display: flex;
+    flex-wrap: wrap;
 }
+@for $var from 1 to 10 {}
+    .col-#{$var}{
+        width: 10% * $var;
+    
+}
+
+@each $clave , $var in $justify{ 
+    .justify-content-#{$key}{
+        justify-content:$variable; 
+    }
+    
+        
+}
+@each $key, $var in $colores {
+    .btn-#{$key}{
+        @extend .btn
+        
+    }
+    
+   
+} 
+@mixin  prop ($ancho,$alto,$colorLetra) {
+        width: $ancho;
+        height: $alto;
+        color: $colorLetra;    
+}
+
+.btn{
+    padding: map-get($btn,padding );
+    border:map-get($btn,bordes ); 
+    border-radius: map-get($btn,radio );
+    @include prop(15px,auto ,rgb(10, 28, 120) )
+
+
+    
+} 
+
