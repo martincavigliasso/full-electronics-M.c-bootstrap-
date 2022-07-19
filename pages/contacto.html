@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../assets/img/images.png" type="image/x-icon">
     <link rel="shortcut icon" href="../assets/img/images.png" type="image/x-icon">
 </head>
-<body>
+<body class="bodyCont">
     <nav class="navbar navbar-expand-lg bg-color2 ">
         <div class="container-fluid " >
           <a class="navbar-brand" href="#"></a>
@@ -42,60 +42,24 @@
         </div>
       </nav> 
 
-      <header class="card col-sm-7 p-4 ">
+      <header >
 
-        <form class=" d-flex justify-content-center ">
-            <div class=" m-4 col-md-2 mb-4">
-              <label for="exampleInputEmail1" class="form-label">Nombre y Apellido</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <div id="emailHelp" class="form-text"></div>
-            </div>
-            <div class=" m-4 col-md-2 mb-4">
-              <label for="exampleInputPassword1" class="form-label">Comentario</label> 
-              <input type="password" class="form-control" id="exampleInputPassword1" >
-            </div> 
-            <div class=" m-4 col-md-2 mb-4">
-              <label for="exampleInputPassword1" class="form-label">Telefono</label> 
-              <input type="password" class="form-control" id="exampleInputPassword1" >
-            </div>
-            
-            
-             
-              
-            </div>
-            
-          </form>
-          <form>
-            
-          
-            <div class=" m-4 mb-4 form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-             <div class="m-4 col-md-4 mb-5">
-            <button type="submit" class="btn btn-primary">Submit</button>
-             </div>
-          </form>
+       
       </header> 
       <main>  
-        <section>
-          <div>
-           <div>
-            <h1>contacto</h1>
-           </div>
-            <div>
-            <form action="">
-              <div>
-                <label for="nombre"></label>
-                <input type="text" name="nombre" id="nombre" placeholder="ej:martin">
-              </div>
-            </form>
-           </div>
-        </div>
+        <section class="form-register">
+          <h1>Formulario de Contacto</h1>
+         <input class="controls" type="text" name="nombres" id="nombres" placeholder="ingrese su nombre">
+         <input class="controls" type="text" name="apellido" id="apellido" placeholder="ingrese su apellido">
+         <input class="controls" type="email" name="correo" id="correo" placeholder="ingrese su correo"> 
+         <input class="controls" type="password" name="telefono" id="telefono" placeholder="ingrese su telefono">
+         <p>estoy de acuerdo con <a href="#">terminos y condiciones</a></p>
+         <input class="botons" type="submit" value="registrar">
+         <p><a href="#">¿Estoy Suscripto?</a></p>
         </section>
         
-        <aside class="m-5 p-2">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.66941784494!2d-60.65205838392146!3d-32.93333138092511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab37b39d42a7%3A0xfa8268d2ccd8b93!2sG%C3%BCemes%202144%2C%20S2000%20AEH%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1656348345595!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <aside class=" m-5 p-2">
+            <iframe class="container d-flex align-items: center justify-content: center;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.66941784494!2d-60.65205838392146!3d-32.93333138092511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b7ab37b39d42a7%3A0xfa8268d2ccd8b93!2sG%C3%BCemes%202144%2C%20S2000%20AEH%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1656348345595!5m2!1ses!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </aside>
 
       </main>
@@ -111,19 +75,19 @@
 
    <!-- JavaScript Bundle with Popper -->
    
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
+   <script class="display:d-flex align-items: center justify-content: center;" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script> 
    <footer>
-    <div class="container">
+    <div class="container p-5">
       <footer class="py-5">
         <div class="row">
           <div class="col-6 col-md-2 mb-3">
-            <h5>Section</h5>
+            <h5>Secciones</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">contacto</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Productos</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">nosotros</a></li>
+              <li class="nav-item mb-2"><a href="../index.html" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="./contacto.html" class="nav-link p-0 text-muted">Contacto</a></li>
+              <li class="nav-item mb-2"><a href="./productos.html" class="nav-link p-0 text-muted">Productos</a></li>
+              <li class="nav-item mb-2"><a href="./noticias.html" class="nav-link p-0 text-muted">FAQs</a></li>
+              <li class="nav-item mb-2"><a href="./nosotros.html" class="nav-link p-0 text-muted">Nosotros</a></li>
             </ul>
           </div>
     
@@ -134,11 +98,11 @@
           <div class="col-md-5 offset-md-1 mb-3">
             <form>
               <h5>Suscribete a nuestras novedades</h5>
-              <p>newsletter</p>
+              <p>Newsletter</p>
               <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                <label for="newsletter1" class="visually-hidden">Email address</label>
-                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                <button class="btn btn-primary" type="button">Subscribe</button>
+                <label for="newsletter1" class="visually-hidden">Email</label>
+                <input id="newsletter1" type="text" class="form-control" placeholder="Email">
+                <button class="btn btn-primary" type="button">Subscribete</button>
               </div>
             </form>
           </div>
