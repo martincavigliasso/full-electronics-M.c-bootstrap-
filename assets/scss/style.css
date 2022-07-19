@@ -8,19 +8,6 @@
   width: 40%;
 }
 
-.contenedorCard {
-  width: 40%;
-  border-radius: 15%;
-}
-.contenedorCard bg-color {
-  display: flex;
-  background-color: rgb(70, 101, 151);
-}
-.contenedorCard .bg-color2 {
-  display: flex;
-  background-color: rgb(70, 101, 151);
-}
-
 .bg-color {
   background-color: rgb(70, 101, 151);
 }
@@ -31,5 +18,18 @@
 
 .bg-color3 {
   background-color: rgb(70, 101, 151);
-}/*# sourceMappingURL=style.css.map */  
+}
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 10px;
+  width: 15px;
+  height: auto;
+  color: rgb(10, 28, 120);
+}/*# sourceMappingURL=style.css.map */
